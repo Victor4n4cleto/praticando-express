@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-// apresenta um formulario para preenchimento
+// apresenta um formulário para preenchimento
 app.get('/', (req, res) => {
     res.send(`
         <form action="/" method="POST">
