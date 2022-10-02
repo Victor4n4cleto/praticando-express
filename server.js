@@ -24,5 +24,5 @@ app.get('/contato', (req, res) => {
 // cria o caminho para execução dos itens a cima
 app.listen(3000, () => {
     console.log('Acessar http://localhost:3000')
-    console.log('Server inciou execução !')
+    console.log('Server esta em execução !')
 });
